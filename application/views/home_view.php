@@ -1,14 +1,14 @@
-<div class="container-fluid" style="background-color: #0052e7;">
+<div class="container-fluid" style="background-color: #a4d5fe;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/News_Cabor2_1.jpg" alt="Caboré">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/News_Cabor2_1.png" alt="Caboré">
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" style="background-color: #0052e7; margin: 30px 0 30px 0;">
+<div class="container-fluid" style="background-color: #a4d5fe; padding: 30px 0 30px 0;">
     <div class="container">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 video">
             <video width="100%" height="auto" controls>
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="container-fluid" style="background-color: #0052e7;">
+<div class="container-fluid" style="background-color: #0052e7; padding-top: 30px">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -57,7 +57,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>*Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 23/08/2020. Fut Liga Campeoes Europa Vivo. Rat%.<br> 
+                <p>Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 23/08/2020. Fut Liga Campeoes Europa Vivo. Rat%.<br> 
                     Base com TV Paga: Total de domicílios (9.436.000) ; Facebook Analytics. 23/08/2020.</p>
             </div>
         </div>
