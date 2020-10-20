@@ -1,0 +1,55 @@
+.home {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background: #f4e600;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #f4e600), color-stop(50%, #f4e600), color-stop(50%, #554c9b), color-stop(100%, #554c9b));
+  background: linear-gradient(165deg, #f4e600 0%, #f4e600 50%, #554c9b 50%, #554c9b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e600', endColorstr='#554c9b', GradientType=1);
+}
+
+.home p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #df0054;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 40px;
+}
+
+.home p span {
+  color: #554c9b;
+}
+
+.home .video {
+  margin-top: 40px;
+}
+
+.home .video video {
+  background-color: #000;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .home img {
+    max-width: 60%;
+  }
+  .home p {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .home .video {
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/*# sourceMappingURL=home.css.map */

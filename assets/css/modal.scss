@@ -1,0 +1,38 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .close {
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        right: 10px;
+        top: -25px;
+        z-index: 999;
+        color: #fff;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .modal-content {
+        background-color: transparent;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .modal {
+        .modal-dialog {
+            margin: 15% auto 0;
+
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}

@@ -1,0 +1,42 @@
+.politica {
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #fff;
+}
+
+.politica .politica-info p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=politica.css.map */

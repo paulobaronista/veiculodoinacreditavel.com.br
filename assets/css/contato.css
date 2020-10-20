@@ -1,0 +1,101 @@
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #FFF;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+footer .navbar-nav {
+  padding-bottom: 14px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #FFF;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+.cookies {
+  background-color: #fff;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  display: none;
+}
+
+.cookies p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.cookies .btn_cookie {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  background: #554c9b;
+  color: #f9e700;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 14px 30px 12px;
+  width: 160px;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .cookies {
+    padding-top: 17px;
+    margin-top: 10px;
+  }
+  .cookies .btn_cookie {
+    margin-top: 20px;
+  }
+  footer {
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */

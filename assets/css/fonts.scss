@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'VAG Rounded Std';
+    src: url('../fonts/VAGRoundedStd-Black.eot');
+    src: url('../fonts/VAGRoundedStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VAGRoundedStd-Black.woff2') format('woff2'),
+        url('../fonts/VAGRoundedStd-Black.woff') format('woff'),
+        url('../fonts/VAGRoundedStd-Black.ttf') format('truetype'),
+        url('../fonts/VAGRoundedStd-Black.svg#VAGRoundedStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Lt.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Lt.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
