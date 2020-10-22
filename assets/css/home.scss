@@ -1,0 +1,42 @@
+.home {
+    background: url(../images/bg-1.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 0px;
+
+    .video {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .dt-1 {
+        margin-bottom: -60px;
+    }
+}
+
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .home {
+        .video {
+            margin-bottom: 15px;
+        }
+
+        .dt-1 {
+            margin-bottom: -30px;
+        }
+    }
+}
+
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+@media(min-width:1200px) {}
