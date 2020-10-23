@@ -1,5 +1,13 @@
 @font-face {
   font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.ttf") format("truetype"), url("../fonts/Montserrat-Black.svg#Montserrat-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
   src: url("../fonts/Montserrat-ExtraBold.eot");
   src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"), url("../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold") format("svg");
   font-weight: 800;
@@ -315,10 +323,12 @@ p {
   .navbar-brand {
     float: left;
     height: auto;
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
   }
   .navbar-brand img {
-    max-width: 75%;
+    max-width: 55%;
+    float: left;
+    padding-left: 10px;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -359,11 +369,13 @@ p {
 
 .home .video {
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .home .dt-1 {
-  margin-bottom: -60px;
+  margin-bottom: -40px;
+  z-index: 999;
+  position: relative;
 }
 
 /* Extra Small */
@@ -373,6 +385,48 @@ p {
   }
   .home .dt-1 {
     margin-bottom: -30px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.home-2 {
+  background: url(../images/bg-2.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.home-2 p {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #d73414;
+  text-transform: uppercase;
+}
+
+.home-2 p span {
+  color: #0024ff;
+}
+
+.home-2 .home-dt {
+  margin-top: -40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home-2 {
+    padding-top: 30px;
+  }
+  .home-2 p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .home-2 .home-dt {
+    margin-top: 0px;
   }
 }
 

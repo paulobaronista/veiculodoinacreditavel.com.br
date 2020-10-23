@@ -28,7 +28,7 @@
     </div>
 </nav>
 
-<div class="container-fluid home">
+<div class="container-fluid padding-off home">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
@@ -41,8 +41,25 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3">
                 <img class="img-responsive center-block dt-1" src="<?= base_url(); ?>assets/images/dt-1.png" alt="Caboré">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid padding-off home-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
+                <p>Nossa atuação como veículo multiplataforma e a produção de conteúdos<br>
+                    inovadores para nossos canais e meios digitais  foram destaque<br>
+                    na indicação. Isso sem falar nas estratégias<br>
+                    de programação combinando:<br>
+                    <span>TV + App + streaming + website + redes</span></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+                <img class="img-responsive center-block home-dt" src="<?= base_url(); ?>assets/images/home-2.png" alt="Caboré">
             </div>
         </div>
     </div>

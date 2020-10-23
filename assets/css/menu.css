@@ -50,10 +50,12 @@
   .navbar-brand {
     float: left;
     height: auto;
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
   }
   .navbar-brand img {
-    max-width: 75%;
+    max-width: 55%;
+    float: left;
+    padding-left: 10px;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;

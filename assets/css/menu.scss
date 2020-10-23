@@ -44,8 +44,6 @@
     }
 }
 
-
-
 /* Extra Small */
 @media(max-width:767px) {
     .navbar-default {
@@ -55,10 +53,12 @@
     .navbar-brand {
         float: left;
         height: auto;
-        padding: 15px 0 0 0;
+        padding: 10px 0 0 0;
 
         img {
-            max-width: 75%;
+            max-width: 55%;
+            float: left;
+            padding-left: 10px;
         }
     }
 
@@ -81,7 +81,6 @@
     }
 }
 
-
 /* Small */
 @media(min-width:768px) and (max-width:991px) {
     .navbar-default {
@@ -97,10 +96,8 @@
     }
 }
 
-
 /* Medium */
 @media(min-width:992px) and (max-width:1199px) {}
-
 
 /* Large */
 @media(min-width:1200px) {}
