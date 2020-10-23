@@ -1,0 +1,122 @@
+.vote-agora {
+  margin-top: 20px;
+}
+
+.vote-agora .box {
+  width: 100%;
+  position: relative;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 25px 0px #323232;
+  box-shadow: 0px 0px 25px 0px #323232;
+  background-color: #e9b744;
+}
+
+.vote-agora .box .box-1 {
+  border-right: solid 3px #000;
+}
+
+.vote-agora .box p {
+  font-family: 'Turner';
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+
+.vote-agora .box a {
+  font-family: 'Turner';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #e9b744;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.audiencia {
+  background: url(../images/bg-3.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  margin-top: -180px;
+}
+
+.audiencia .box {
+  width: 100%;
+  height: 130px;
+  background-color: #161616;
+}
+
+.ei {
+  background: url(../images/bg-4.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.ei img {
+  margin-top: -140px;
+  margin-bottom: -70px;
+}
+
+.cn {
+  background-color: #c71980;
+}
+
+.cn img {
+  margin-bottom: -20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .vote-agora .box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .vote-agora .box .box-1 {
+    height: 120px;
+  }
+  .vote-agora .box .box-1 img {
+    margin-top: 30px;
+  }
+  .vote-agora .box p {
+    font-size: 9px;
+    line-height: 10px;
+    margin-top: 12px;
+  }
+  .vote-agora .box a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .audiencia {
+    margin-top: -110px;
+  }
+  .audiencia .box {
+    width: 100%;
+    height: 80px;
+    background-color: #161616;
+  }
+  .ei img {
+    margin-top: -50px;
+    margin-bottom: -20px;
+  }
+  .cn img {
+    margin-bottom: -10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=audiencia.css.map */

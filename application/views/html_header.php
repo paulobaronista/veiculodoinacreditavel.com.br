@@ -6,9 +6,9 @@
     <title><?php echo $title; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Turner o Veículo do Inacreditável indicada ao Caboré 2020." />
-    <meta name="og:title" content="Turner o Veículo do Inacreditável indicada ao Caboré 2020." />
-    <meta name="og:description" content="Em um ano diferente de todos os outros, a Turner se reinventou e fez o que parecia improvável" />
+    <meta name="title" content="Turner Caboré 2020" />
+    <meta name="og:title" content="Turner Caboré 2020" />
+    <meta name="og:description" content="Vote na Turner" />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -18,10 +18,10 @@
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <meta name="theme-color" content="#5d1580" />
     <!-- property (faz funcionar no linkedin) -->
-    <meta property="og:title" content="Turner o Veículo do Inacreditável indicada ao Caboré 2020." />
+    <meta property="og:title" content="Turner Caboré 2020" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="Em um ano diferente de todos os outros, a Turner se reinventou e fez o que parecia improvável" />
-    <meta property="og:url" content="https://veiculodoinacreditavel.com.br" />
+    <meta property="Vote na Turner" />
+    <meta property="og:url" content="https://www.veiculodoinacreditavel.com.br" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(
@@ -33,8 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    //echo link_tag('assets/css/style.css?v=0.1');
-    echo link_tag('assets/css/style.css');
+    echo link_tag('assets/css/style.css?v=0.1');
     ?>
 </head>
 

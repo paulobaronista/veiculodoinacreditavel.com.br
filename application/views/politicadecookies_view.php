@@ -160,11 +160,13 @@
             </div>
         </div>
     </div>
+</div>
 
+<div class="cookies">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
+                <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box-cookies">
                     <div class="col-xs-12 col-sm-9 col-md-9">
                         <p>
                             Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
@@ -177,7 +179,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <footer>
@@ -189,6 +190,14 @@
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
                 </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <p>
+                    Fontes: *Kantar IBOPE Media Brasil. 15 Mercados. 30/06 a 30/07/2020. Das21h41 às 21h46. PG CARENTENERS NOT. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / univ. proj.: 46.276.417). Considerando 15.3M de domicílios assinantes (Anatel - Mai'20) e 3,02 pessoas por domicílio.
+                    **Kantar IBOPE Media. 15 Mercados. TNT. Coala Festival. 12/09/2020.  Base com TV Paga. Pessoas 4+ (univ.:26.344.500/univ.proj.: 41.912.990)- Considerando 15.2MM de domicílios assinantes (Anatel - Jun'20)e 3,02 pessoas por domicílio; Social Bakers. Conteúdos relacionados
+                    #CoalanaTNT. 17/08/2020 a 14/09/2020.Youtube Analytics.  Kantar IBOPE Media. Brasil. 15 Mercados. TNT. Coala Festival. 12/09/2020. Cov%. Base com TV Paga. Pessoas 4+ anos (univ.: 26.344.500 / univ.proj.: 41.912.990) - Considerando 15.2 MM de domicílios assinantes (Anatel
+                    Jun'20) e 3,02 pessoas por domicílio; Social Bakers. Conteúdos relacionados à #CoalanaTNT. 17/08 à 14/09/20.***Fonte: Social Bakers. Jun à Agosto'20. Conteúdos relacionados #DCFandome; BrandWatch. Brasil. Últimos 30 dias
+                </p>
             </div>
         </div>
     </div>

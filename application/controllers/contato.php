@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Turner o Veículo do Inacreditável indicada ao Caboré 2020.';
-        $data['description'] = 'Em um ano diferente de todos os outros, a Turner se reinventou e fez o que parecia improvável';
-        $data['keywords'] = '';
+        $data['title'] = 'Turner Caboré 2020';
+        $data['description'] = 'Vote na Turner';
+        $data['keywords'] = 'premio Caboré 2020, caber 2020, votos Caboré 2020, agencia Caboré 2020, turner 2020 cabore';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -54,9 +54,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Turner o Veículo do Inacreditável indicada ao Caboré 2020.';
-        $data['description'] = 'Em um ano diferente de todos os outros, a Turner se reinventou e fez o que parecia improvável';
-        $data['keywords'] = '';
+        $data['title'] = 'Turner Caboré 2020';
+        $data['description'] = 'Vote na Turner';
+        $data['keywords'] = 'premio Caboré 2020, caber 2020, votos Caboré 2020, agencia Caboré 2020, turner 2020 cabore';
         $menu['obrigado'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -68,9 +68,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Turner o Veículo do Inacreditável indicada ao Caboré 2020.';
-        $data['description'] = 'Em um ano diferente de todos os outros, a Turner se reinventou e fez o que parecia improvável';
-        $data['keywords'] = '';
+        $data['title'] = 'Turner Caboré 2020';
+        $data['description'] = 'Vote na Turner';
+        $data['keywords'] = 'premio Caboré 2020, caber 2020, votos Caboré 2020, agencia Caboré 2020, turner 2020 cabore';
         $menu['fail'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

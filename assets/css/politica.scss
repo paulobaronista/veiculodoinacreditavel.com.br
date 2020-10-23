@@ -1,13 +1,13 @@
 .politica {
-    padding-bottom: 50px;
+    background-color: #2f53e3;
     .politica-tt {
         padding-top: 20px;
         padding-bottom: 20px;
         h3 {
-            font-family: 'VAG Rounded Std';
+            font-family: 'Turner';
             font-weight: 900;
             font-style: normal;
-            color: #FFF;
+            color: #fff;
             text-transform: uppercase;
             font-size: 40px;
             line-height: 40px;
@@ -18,17 +18,16 @@
     .politica-info {
         padding-top: 30px;
         padding-bottom: 15px;
-        background-color: #fff;
         p {
-            font-family: 'Helvetica Neue LT Std';
+            font-family: 'Turner';
             font-weight: 300;
             font-style: normal;
-            color: #000;
+            color: #fff;
             font-size: 20px;
             line-height: 30px;
             margin-bottom: 15px;
             a {
-                color: #EC2c27;
+                color: #f9e700;
                 text-decoration: underline;
             }
         }

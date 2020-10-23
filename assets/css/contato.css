@@ -1,15 +1,19 @@
 footer {
+  background-color: #2f53e3;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 footer p {
-  font-family: 'Helvetica Neue LT Std';
+  font-family: 'Turner';
   font-weight: 300;
   font-style: normal;
   color: #FFF;
   font-size: 12px;
   line-height: 14px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 footer .navbar-nav {
@@ -24,7 +28,7 @@ footer .navbar-nav li {
 footer .navbar-nav li > a {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: 'Helvetica Neue LT Std';
+  font-family: 'Turner';
   font-weight: 300;
   font-style: normal;
   color: #FFF;
@@ -45,15 +49,20 @@ footer .navbar-nav li:last-child a {
 }
 
 .cookies {
+  background-color: #2f53e3;
+}
+
+.cookies .box-cookies {
   background-color: #fff;
+  border-radius: 10px;
   padding-top: 27px;
   padding-bottom: 20px;
   margin-top: 30px;
   display: none;
 }
 
-.cookies p {
-  font-family: 'Helvetica Neue LT Std';
+.cookies .box-cookies p {
+  font-family: 'Turner';
   font-weight: 300;
   font-style: normal;
   color: #000;
@@ -61,13 +70,13 @@ footer .navbar-nav li:last-child a {
   line-height: 19px;
 }
 
-.cookies .btn_cookie {
-  font-family: 'VAG Rounded Std';
+.cookies .box-cookies .btn_cookie {
+  font-family: 'Turner';
   font-weight: 900;
   font-style: normal;
   font-size: 20px;
   line-height: 20px;
-  background: #554c9b;
+  background: #2f53e3;
   color: #f9e700;
   border: 0px solid transparent;
   border-radius: 50px;
@@ -79,16 +88,18 @@ footer .navbar-nav li:last-child a {
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .cookies {
+  .cookies .box-cookies {
     padding-top: 17px;
-    margin-top: 10px;
   }
-  .cookies .btn_cookie {
+  .cookies .box-cookies .btn_cookie {
     margin-top: 20px;
   }
-  footer {
-    padding-bottom: 20px;
-    padding-top: 0px;
+  footer p {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer .navbar-nav {
+    background-color: transparent;
   }
   footer .navbar-nav li > a {
     border-right: 0px solid transparent;

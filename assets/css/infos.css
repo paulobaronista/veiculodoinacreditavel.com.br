@@ -1,0 +1,40 @@
+.infos {
+  background: url(../images/bg-5.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.infos .redes {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.infos .redes .insta,
+.infos .redes .face {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.infos .redes p {
+  font-family: 'Turner';
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #2f53e3;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 10px;
+}
+
+.infos .redes p a {
+  color: #d73b0f;
+  text-decoration: none;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=infos.css.map */
