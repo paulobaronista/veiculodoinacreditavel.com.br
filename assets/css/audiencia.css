@@ -26,7 +26,7 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  margin-top: 23px;
+  margin-top: 0px;
 }
 
 .vote-agora .box a {
@@ -65,8 +65,8 @@
 }
 
 .ei img {
-  margin-top: -140px;
-  margin-bottom: -70px;
+  margin-top: -125px;
+  margin-bottom: 20px;
 }
 
 .cn {
@@ -93,7 +93,7 @@
   .vote-agora .box p {
     font-size: 9px;
     line-height: 10px;
-    margin-top: 12px;
+    margin-top: 0px;
   }
   .vote-agora .box a {
     font-size: 10px;
@@ -109,7 +109,7 @@
   }
   .ei img {
     margin-top: -50px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
   }
   .cn img {
     margin-bottom: -10px;

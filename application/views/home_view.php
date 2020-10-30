@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">FATOS INACREDITÁVEIS</a></li>
-                <li class="vote"><a href=""><span>VOTE NA TURNER</span></a></li>
+                <li class="vote"> <a href="https://www.cabore.com.br/indicados/turner/" target="_blank"><span>VOTE NA TURNER</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs">
                 <li class="logo">
@@ -88,9 +88,9 @@
                             Principal premiação<br>
                             da indústria de comunicação<br>
                             no Brasil, é considerado<br>
-                            o “Oscar” do mercado.<br>
+                            o “Oscar” do mercado. <u>VOTAÇÃO EXCLUSIVA PARA ASSINANTES DO MEIO MENSAGEM</u>.<br>
                         </p>
-                        <a href="">
+                        <a href="https://www.cabore.com.br/indicados/turner/" target="_blank">
                             CLIQUE E VOTE AGORA
                         </a>
                     </div>
@@ -193,10 +193,21 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <p>
-                    Fontes: *Kantar IBOPE Media Brasil. 15 Mercados. 30/06 a 30/07/2020. Das21h41 às 21h46. PG CARENTENERS NOT. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / univ. proj.: 46.276.417). Considerando 15.3M de domicílios assinantes (Anatel - Mai'20) e 3,02 pessoas por domicílio.
-                    **Kantar IBOPE Media. 15 Mercados. TNT. Coala Festival. 12/09/2020.  Base com TV Paga. Pessoas 4+ (univ.:26.344.500/univ.proj.: 41.912.990)- Considerando 15.2MM de domicílios assinantes (Anatel - Jun'20)e 3,02 pessoas por domicílio; Social Bakers. Conteúdos relacionados
-                    #CoalanaTNT. 17/08/2020 a 14/09/2020.Youtube Analytics.  Kantar IBOPE Media. Brasil. 15 Mercados. TNT. Coala Festival. 12/09/2020. Cov%. Base com TV Paga. Pessoas 4+ anos (univ.: 26.344.500 / univ.proj.: 41.912.990) - Considerando 15.2 MM de domicílios assinantes (Anatel
-                    Jun'20) e 3,02 pessoas por domicílio; Social Bakers. Conteúdos relacionados à #CoalanaTNT. 17/08 à 14/09/20.***Fonte: Social Bakers. Jun à Agosto'20. Conteúdos relacionados #DCFandome; BrandWatch. Brasil. Últimos 30 dias
+                    Fontes: UCL | Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 23/08/2020. Fut Liga Campeões Europa Vivo. Rat%. 
+                    Base com TV Paga: Total de domicílios (9.436.000) ; Social Bakers. 23/08/2020. Conteúdos relacionados à 
+                    #CasaDaChampions ; EI | Social Bakers. Jan a Set’20 ; CN | Kantar IBOPE Media Brasil. 9 Mercados (2013) 
+                    e 15 Mercados (2014 a 2020). Jan a Set. Rat%. Base com TV Paga: Crianças 4 a 11 anos (3.236.800) ; Turner 
+                    | Kantar IBOPE Media Brasil. 15 Mercados. Ago’20. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / 
+                    univ. proj.: 45.791.100). Considerando 15.1M de domicílios assinantes (Anatel – Jul’20) e 3,02 pessoas 
+                    por domicílio ; Carenteners | Kantar IBOPE Media Brasil. 15 Mercados. 30/06 a 30/07/2020. Das 21h41 às 
+                    21h46. Pg Carenteners Not. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / univ. proj.: 46.276.417). 
+                    Considerando 15.2M de domicílios assinantes (Anatel - Mai'20) e 3,02 pessoas por domicílio ; Youtube Analytics ; 
+                    Coala | Kantar IBOPE Media Brasil. 15 Mercados. Coala Festival. 12/09/2020. Cov%. Base com TV Paga: Pessoas 4+
+                     anos (26.344.500 / univ. proj.: 41.912.990). Considerando 15.2 MM de domicílios assinantes (Anatel - Jun'20) 
+                     e 3,02 pessoas por domicílio ; Social Bakers. Conteúdos relacionados à #CoalaNaTNT. 17/08 a 14/09/20 ; GAL 75 | 
+                     Kantar IBOPE Media Brasil. 15 Mercados. Gal 75 Not Sb. 26/09/2020. Cov%. Base com TV Paga: Pessoas 4+ anos 
+                     (26.344.500 / univ. proj.: 41.912.990). Considerando 15.2 MM de domicílios (Anatel - Jun'20) e 3,02 pessoas 
+                     por domicílio ; Youtube Analytics ; DC Fandome | Social Bakers. Jun a Ago’20. Conteúdos relacionados à #DCFandome
                 </p>
             </div>
         </div>
