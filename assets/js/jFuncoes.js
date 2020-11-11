@@ -1,10 +1,12 @@
 $(document).ready(function () {
 
-    $('#cookies').show(3000);
+    $('#cookies').show();
+    $('body').css('overflow', 'hidden');
 
     // Check if the user already accepted it
     if (window.localStorage.getItem('accept_cookies')) {
         $('#cookies').hide();
+        $('body').css('overflow', 'auto');
         return false;
     }
 
@@ -12,6 +14,7 @@ $(document).ready(function () {
         // Save on LocalStorage
         window.localStorage.setItem('accept_cookies', true);
         $('#cookies').hide();
+        $('body').css('overflow', 'auto');
         return false;
     });
 });
