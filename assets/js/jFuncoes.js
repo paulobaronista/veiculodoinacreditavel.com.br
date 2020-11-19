@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $('#modalTimer').modal();
+});
+
+$(document).ready(function () {
 
     $('#cookies').show();
     $('body').css('overflow', 'hidden');

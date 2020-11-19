@@ -188,6 +188,110 @@ p {
   text-transform: uppercase;
 }
 
+.modalTimer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalTimer .modal-dialog {
+  margin: 15% auto;
+}
+
+.modalTimer .modal-content {
+  background: url(../images/bg-timer.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 5px 0px;
+}
+
+.modalTimer .modal-content .close {
+  position: absolute;
+  top: -17px;
+  right: -10px;
+  z-index: 100;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #f93108;
+  text-shadow: none;
+  background: #fff;
+  border-radius: 15px;
+  padding: 4px 7px;
+}
+
+.modalTimer .modal-content .coruja-timer {
+  position: absolute;
+  top: -75px;
+  left: -125px;
+}
+
+.modalTimer .modal-content .boxTimer {
+  display: table;
+  margin-left: 140px;
+}
+
+.modalTimer .modal-content .boxTimer .txt {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  color: #f93108;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.modalTimer .modal-content .boxTimer .timer {
+  display: table;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box {
+  display: table-cell;
+  text-align: center;
+  text-decoration: none;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box .numero {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  background-color: #0024ff;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 35px;
+  line-height: 35px;
+  padding: 10px 10px;
+  min-width: 68px;
+  display: block;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box .dt {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  color: #0024ff;
+  font-size: 30px;
+  line-height: 30px;
+  display: table-caption;
+  width: 15px;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box p {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+  color: #0024ff;
+  font-size: 8px;
+  line-height: 8px;
+  margin-top: 5px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .padding-off-mobile {
@@ -197,6 +301,27 @@ p {
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
+  }
+  .modalTimer .modal-dialog {
+    margin: 35% auto;
+  }
+  .modalTimer .modal-content {
+    background: url(../images/bg-1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .modalTimer .modal-content .close {
+    top: -30px;
+    right: 0;
+  }
+  .modalTimer .modal-content .coruja-timer {
+    display: none;
+  }
+  .modalTimer .modal-content .boxTimer {
+    display: table;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=base.css.map */
