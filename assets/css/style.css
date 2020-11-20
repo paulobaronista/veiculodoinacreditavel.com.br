@@ -431,11 +431,11 @@ p {
     margin: 35% auto;
   }
   .modalTimer .modal-content {
-    background: url(../images/bg-1.jpg);
-    background-position: center top;
+    background: url(../images/bg-timer-mobile.png);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
+    background-size: contain;
+    padding: 10px 0px;
   }
   .modalTimer .modal-content .close {
     top: -30px;
