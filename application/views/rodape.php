@@ -1,4 +1,4 @@
-<div class="modal fade modalTimer" id="modalTimer" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="modalTimer">
+<!-- <div class="modal fade modalTimer" id="modalTimer" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="modalTimer">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <button id="closeModal" type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
@@ -39,9 +39,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<script>
+<!-- <script>
     // Set the date we're counting down to
     var countDownDate = new Date("Nov 28, 2020 00:00:00").getTime();
 
@@ -66,4 +66,4 @@
         document.getElementById("minutos").innerHTML = minutes;
         document.getElementById("segundos").innerHTML = seconds;
     }, 1000);
-</script>
+</script> -->
